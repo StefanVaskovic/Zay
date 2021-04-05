@@ -1,0 +1,23 @@
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    padding: 12px 8px;
+    vertical-align: baseline !important;
+}
+.blog-details-text .comment-option .single-comment-item .sc-text {
+
+    display: block !important;
+}
+ul.nav.nav-mobile-menu{
+    display: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+    ul.nav.nav-mobile-menu{
+        display: block !important;
+    }
+}
